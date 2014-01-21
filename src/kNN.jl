@@ -6,8 +6,7 @@ module kNN
 
     using StatsBase
     using Distance
-    using NearestNeighbors
-	using SmoothingKernels
+    using SmoothingKernels
 
     include("majority_vote.jl")
     include("classifier.jl")
